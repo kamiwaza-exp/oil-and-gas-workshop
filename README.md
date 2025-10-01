@@ -1,6 +1,6 @@
 # Oil and Gas Production Data Analysis
 
-This project analyzes federal oil and gas production data from the Office of Natural Resources Revenue (OGORB).
+This project analyzes federal oil and gas production data from the Office of Natural Resources Revenue (OGORB). You must implement the following:
 
 ## Dataset
 
@@ -14,25 +14,25 @@ The `OGORBcsv_cleaned.csv` file contains production records with the following i
 ## Project Workflow
 
 ### 1. Exploratory Data Analysis (EDA)
-Run the EDA script to understand the dataset:
+Create and then run an EDA script to understand the dataset:
 ```bash
 python eda.py
 ```
 
-This will:
+This should:
 - Load and examine the dataset structure
 - Analyze production volumes by region, commodity, and time
 - Identify key trends and patterns
 - Generate summary statistics
 
 ### 2. Generate Visualizations
-The EDA script automatically creates visualizations including:
+The EDA script should automatically create visualizations including:
 - Production trends over time
 - Regional production comparisons
 - Commodity distribution analysis
 - Disposition type breakdowns
 
-Visualizations are saved in the `visualizations/` directory.
+Visualizations should be saved in a `visualizations/` directory.
 
 ### 3. Generate Report
 Create a professional report to share with colleagues. Choose between HTML or PDF format:
@@ -47,7 +47,7 @@ python generate_html_report.py
 python generate_pdf_report.py
 ```
 
-Both formats include:
+Both formats should include:
 - Executive summary
 - All visualizations with captions
 - Statistical summaries
