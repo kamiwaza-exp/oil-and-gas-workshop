@@ -25,14 +25,16 @@ This should:
 - Identify key trends and patterns
 - Generate summary statistics
 
-### 2. Generate Visualizations
-The EDA script should automatically create visualizations including:
+**Note:** This script should focus on data exploration only - no visualizations yet!
+
+### 2. Create Visualizations
+Now that you understand the data, write code to create visualizations showing:
 - Production trends over time
 - Regional production comparisons
 - Commodity distribution analysis
 - Disposition type breakdowns
 
-Visualizations should be saved in a `visualizations/` directory.
+Save your visualizations in the `visualizations/` directory.
 
 ### 3. Generate Report
 Create a professional report to share with colleagues. Choose between HTML or PDF format:
